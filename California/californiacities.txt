@@ -1,0 +1,482 @@
+Sacramento,      Sacramento,	466488,	97.92,	253.6,	February 27, 1850
+Benicia,         Solano,	26997,	12.93,	33.5,	March 27, 1850
+San Jose,        Santa Clara,	945942,	176.53,	457.2,	March 27, 1850
+San Diego,       San Diego,	1301617,	325.19,	842.2,	March 27, 1850
+Los Angeles,     Los Angeles,	3792621,	468.67,	1213.8,	April 4, 1850
+Santa Barbara,   Santa Barbara,	88410,	19.47,	50.4,	April 9, 1850
+San Francisco,   San Francisco,	805235,	46.87,	121.4,	April 15, 1850
+Stockton,        San Joaquin,	291707,	61.67,	159.7,	July 23, 1850
+Marysville,      Yuba,	12072,	3.46,	9.0,	February 5, 1851
+Sonora,          Tuolumne,	4903,	3.06,	7.9,	May 1, 1851
+Oakland,         Alameda,	390724,	55.79,	144.5,	May 4, 1852
+Santa Clara,     Santa Clara,	116468,	18.41,	47.7,	July 5, 1852
+Crescent City,   Del Norte,	7643,	1.96,	5.1,	April 13, 1854
+Alameda,         Alameda,	73812,	10.61,	27.5,	April 19, 1854
+Placerville,     El Dorado,	10389,	5.81,	15.0,	May 13, 1854
+San Luis Obispo, San Luis Obispo,	45119,	12.78,	33.1,	February 16, 1856
+Eureka,          Humboldt,	27191,	9.38,	24.3,	April 18, 1856
+Nevada City,     Nevada,	3068,	2.19,	5.7,	April 19, 1856
+Yreka,           Siskiyou,	7765,	9.98,	25.8,	April 21, 1857
+Arcata,          Humboldt,	17231,	9.10,	23.6,	February 2, 1858
+Petaluma,        Sonoma,	57941,	14.38,	37.2,	April 12, 1858
+Santa Cruz,      Santa Cruz,	59946,	12.74,	33.0,	March 31, 1866
+Ventura,         Ventura,	106433,	21.65,	56.1,	April 2, 1866
+Healdsburg,      Sonoma,	11254,	4.46,	11.6,	February 20, 1867
+Redwood City,    San Mateo,	76815,	19.42,	50.3,	May 11, 1867
+Santa Rosa,      Sonoma,	167815,	41.29,	106.9,	March 26, 1868
+Vallejo,         Solano,	115942,	30.67,	79.4,	March 30, 1868
+Watsonville,     Santa Cruz,	51199,	6.69,	17.3,	March 30, 1868
+Colusa,          Colusa,	5971,	1.83,	4.7,	June 16, 1868
+Suisun City,     Solano,	28111,	4.11,	10.6,	October 9, 1868
+San Bernardino,  San Bernardino,	209924,	59.20,	153.3,	August 10, 1869
+Gilroy,          Santa Clara,	48821,	16.15,	41.8,	March 12, 1870
+Trinidad,        Humboldt,	367,	0.48,	1.2,	November 7, 1870
+Woodland,        Yolo,	55468,	15.30,	39.6,	February 22, 1871
+Chico,           Butte,	86187,	32.92,	85.3,	January 8, 1872
+Antioch,         Contra Costa,	102372,	28.35,	73.4,	February 6, 1872
+Cloverdale,      Sonoma,	8618,	2.65,	6.9,	February 28, 1872
+Fort Jones,      Siskiyou,	839,	0.60,	1.6,	March 16, 1872
+San Leandro,     Alameda,	84950,	13.34,	34.6,	March 21, 1872
+Napa,            Napa,	76915,	17.84,	46.2,	March 23, 1872
+Hollister,       San Benito,	34928,	7.29,	18.9,	March 26, 1872
+San Rafael,      Marin,	57713,	16.47,	42.7,	February 18, 1874
+Visalia,         Tulare,	124442,	36.25,	93.9,	February 27, 1874
+Salinas,         Monterey,	150441,	23.18,	60.0,	March 4, 1874
+Wheatland,       Yuba,	3456,	1.48,	3.8,	April 23, 1874
+Ukiah,           Mendocino,	16075,	4.67,	12.1,	March 8, 1876
+Hayward,         Alameda,	144186,	45.32,	117.4,	March 11, 1876
+Anaheim,         Orange,	336265,	49.84,	129.1,	March 18, 1876
+St. Helena,      Napa,	5814,	4.99,	12.9,	March 24, 1876
+Red Bluff,       Tehama,	14076,	7.56,	19.6,	March 31, 1876
+Livermore,       Alameda,	80968,	25.17,	65.2,	April 1, 1876
+Martinez,        Contra Costa,	35824,	12.13,	31.4,	April 1, 1876
+Etna,            Siskiyou,	737,	0.76,	2.0,	March 13, 1878
+Dixon,           Solano,	18351,	7.00,	18.1,	March 30, 1878
+Berkeley,        Alameda,	112580,	10.47,	27.1,	April 4, 1878
+Sonoma,          Sonoma,	10648,	2.74,	7.1,	September 3, 1883
+Riverside,       Riverside,	303871,	81.14,	210.2,	October 11, 1883
+Modesto,         Stanislaus,	201165,	36.87,	95.5,	August 6, 1884
+Fresno,          Fresno,	494665,	111.96,	290.0,	October 12, 1885
+Calistoga,       Napa,	5155,	2.60,	6.7,	January 6, 1886
+Willows,         Glenn,	6166,	2.85,	7.4,	January 16, 1886
+Santa Ana,       Orange,	324528,	27.27,	70.6,	June 1, 1886
+Pasadena,        Los Angeles,	137122,	22.97,	59.5,	June 19, 1886
+Santa Monica,    Los Angeles,	89736,	8.41,	21.8,	November 30, 1886
+Colton,          San Bernardino,	52154,	15.32,	39.7,	July 11, 1887
+Los Gatos,       Santa Clara,	29413,	11.08,	28.7,	August 10, 1887
+National City,   San Diego,	58582,	7.28,	18.9,	September 17, 1887
+Redding,         Shasta,	89861,	59.65,	154.5,	October 4, 1887
+Monrovia,        Los Angeles,	36590,	13.60,	35.2,	December 15, 1887
+Pomona,          Los Angeles,	149058,	22.95,	59.4,	January 6, 1888
+South Pasadena,  Los Angeles,	25619,	3.41,	8.8,	March 2, 1888
+Tulare,          Tulare,	59278,	20.93,	54.2,	April 5, 1888
+Orange,          Orange,	134616,	24.80,	64.2,	April 6, 1888
+Lake Elsinore,   Riverside,	51821,	36.21,	93.8,	April 9, 1888
+San Jacinto,     Riverside,	44199,	25.72,	66.6,	April 20, 1888
+Lakeport,        Lake,	4753,	3.06,	7.9,	April 30, 1888
+Auburn,          Placer,	13330,	7.14,	18.5,	May 2, 1888
+Compton,         Los Angeles,	96455,	10.01,	25.9,	May 11, 1888
+Oceanside,       San Diego,	167086,	41.23,	106.8,	July 3, 1888
+Lompoc,          Santa Barbara,	42434,	11.60,	30.0,	August 13, 1888
+Escondido,       San Diego,	143911,	36.81,	95.3,	October 8, 1888
+Willits,         Mendocino,	4888,	2.80,	7.3,	November 19, 1888
+Redlands,        San Bernardino,	68747,	36.13,	93.6,	December 3, 1888
+Paso Robles,     San Luis Obispo,	29793,	19.12,	49.5,	March 11, 1889
+Merced,          Merced,	78958,	23.32,	60.4,	April 1, 1889
+Pacific Grove,   Monterey,	15041,	2.86,	7.4,	July 5, 1889
+Fort Bragg,      Mendocino,	7273,	2.75,	7.1,	August 5, 1889
+Monterey,        Monterey,	27810,	8.47,	21.9,	June 14, 1890
+Lincoln,         Placer,	42819,	20.11,	52.1,	August 7, 1890
+Coronado,        San Diego,	24697,	7.93,	20.5,	December 11, 1890
+Hanford,         Kings,	53967,	16.59,	43.0,	August 12, 1891
+Ontario,         San Bernardino,	163924,	49.94,	129.3,	December 10, 1891
+Redondo Beach,   Los Angeles,	66747,	6.20,	16.1,	April 29, 1892
+Vacaville,       Solano,	92428,	28.37,	73.5,	August 9, 1892
+Rocklin,         Placer,	56974,	19.54,	50.6,	February 24, 1893
+Grass Valley,    Nevada,	12860,	4.74,	12.3,	March 13, 1893
+Selma,           Fresno,	23219,	5.14,	13.3,	March 15, 1893
+Ferndale,        Humboldt,	1371,	1.03,	2.7,	August 28, 1893
+Sausalito,       Marin,	7061,	1.77,	4.6,	September 4, 1893
+Rio Vista,       Solano,	7360,	6.69,	17.3,	January 6, 1894
+Palo Alto,       Santa Clara,	64403,	23.88,	61.8,	April 23, 1894
+Pleasanton,      Alameda,	70285,	24.11,	62.4,	June 18, 1894
+San Mateo,       San Mateo,	97207,	12.13,	31.4,	September 4, 1894
+San Juan Bautista, San Benito,	1862,	0.71,	1.8,	May 4, 1896
+Corona,          Riverside,	152374,	38.83,	100.6,	July 13, 1896
+Emeryville,      Alameda,	10080,	1.25,	3.2,	December 8, 1896
+Belvedere,       Marin,	2068,	0.52,	1.3,	December 24, 1896
+Long Beach,      Los Angeles,	462257,	50.29,	130.3,	December 13, 1897
+Bakersfield,     Kern,	347483,	142.16,	368.2,	January 11, 1898
+Winters,         Yolo,	6624,	2.91,	7.5,	February 9, 1898
+Whittier,        Los Angeles,	85331,	14.65,	37.9,	February 25, 1898
+Azusa,           Los Angeles,	46361,	9.66,	25.0,	December 29, 1898
+Lemoore,         Kings,	24531,	8.52,	22.1,	July 4, 1900
+Susanville,      Lassen,	17947,	7.93,	20.5,	August 24, 1900
+Mill Valley,     Marin,	13903,	4.76,	12.3,	September 1, 1900
+Hercules,        Contra Costa,	24060,	6.21,	16.1,	December 15, 1900
+Loyalton,        Sierra,	769,	0.36,	0.93,	July 21, 1901
+Covina,          Los Angeles,	47796,	7.03,	18.2,	August 14, 1901
+Alturas,         Modoc,	2827,	2.43,	6.3,	September 16, 1901
+Santa Paula,     Ventura,	29321,	4.59,	11.9,	April 22, 1902
+Porterville,     Tulare,	54165,	17.61,	45.6,	May 7, 1902
+Sebastopol,      Sonoma,	7379,	1.85,	4.8,	June 13, 1902
+Mountain View,   Santa Clara,	74066,	12.00,	31.1,	November 7, 1902
+Bishop,          Inyo,	3879,	1.86,	4.8,	May 6, 1903
+Pinole,          Contra Costa,	18390,	5.32,	13.8,	June 25, 1903
+Pittsburg,       Contra Costa,	63264,	17.22,	44.6,	June 25, 1903
+Biggs,           Butte,	1707,	0.64,	1.7,	June 26, 1903
+Oxnard,          Ventura,	197899,	26.89,	69.6,	June 30, 1903
+Alhambra,        Los Angeles,	83089,	7.63,	19.8,	July 11, 1903
+Arcadia,         Los Angeles,	56364,	10.93,	28.3,	August 5, 1903
+Fairfield,       Solano,	105321,	37.39,	96.8,	December 12, 1903
+Fullerton,       Orange,	135161,	22.35,	57.9,	February 15, 1904
+Imperial,        Imperial,	14758,	5.86,	15.2,	July 12, 1904
+Concord,         Contra Costa,	122067,	30.55,	79.1,	February 9, 1905
+Mount Shasta,    Siskiyou,	3394,	3.77,	9.8,	May 31, 1905
+Richmond,        Contra Costa,	103701,	30.07,	77.9,	August 7, 1905
+Santa Maria,     Santa Barbara,	99553,	22.76,	58.9,	September 12, 1905
+Vernon,          Los Angeles,	112,	4.97,	12.9,	September 22, 1905
+Gridley,         Butte,	6584,	2.07,	5.4,	November 23, 1905
+Jackson,         Amador,	4651,	3.73,	9.7,	December 5, 1905
+Oroville,        Butte,	15546,	12.99,	33.6,	January 3, 1906
+Dinuba,          Tulare,	21453,	6.47,	16.8,	January 6, 1906
+Fortuna,         Humboldt,	11926,	4.85,	12.6,	January 20, 1906
+Glendale,        Los Angeles,	191719,	30.45,	78.9,	February 15, 1906
+Coalinga,        Fresno,	13380,	6.12,	15.9,	April 3, 1906
+Upland,          San Bernardino,	73732,	15.62,	40.5,	May 15, 1906
+Tehama,          Tehama,	418,	0.79,	2.0,	July 5, 1906
+La Verne,        Los Angeles,	31063,	8.43,	21.8,	August 20, 1906
+Newport Beach,   Orange,	85186,	23.80,	61.6,	September 1, 1906
+Huntington Park, Los Angeles,	58114,	3.01,	7.8,	September 1, 1906
+Morgan Hill,     Santa Clara,	37882,	12.88,	33.4,	November 10, 1906
+Oakdale,         Stanislaus,	20675,	6.04,	15.6,	November 24, 1906
+Lodi,            San Joaquin,	62134,	13.61,	35.2,	December 6, 1906
+Hermosa Beach,   Los Angeles,	19506,	1.43,	3.7,	January 14, 1907
+Piedmont,        Alameda,	10667,	1.68,	4.4,	January 31, 1907
+Sierra Madre,    Los Angeles,	10917,	2.95,	7.6,	February 2, 1907
+Madera,          Madera,	61416,	15.79,	40.9,	March 27, 1907
+San Anselmo,     Marin,	12336,	2.68,	6.9,	April 9, 1907
+Los Banos,       Merced,	35972,	9.99,	25.9,	May 8, 1907
+Corning,         Tehama,	7663,	3.55,	9.2,	August 6, 1907
+Claremont,       Los Angeles,	34926,	13.35,	34.6,	October 3, 1907
+Yuba City,       Sutter,	64925,	14.58,	37.8,	January 23, 1908
+Inglewood,       Los Angeles,	109673,	9.07,	23.5,	February 7, 1908
+Turlock,         Stanislaus,	68549,	16.93,	43.8,	February 15, 1908
+Larkspur,        Marin,	11926,	3.03,	7.8,	March 1, 1908
+Brawley,         Imperial,	24953,	7.68,	19.9,	April 6, 1908
+El Centro,       Imperial,	42598,	11.08,	28.7,	April 16, 1908
+Calexico,        Imperial,	38572,	8.39,	21.7,	April 16, 1908
+Kingsburg,       Fresno,	11382,	2.83,	7.3,	May 29, 1908
+Burlingame,      San Mateo,	28806,	4.41,	11.4,	June 6, 1908
+Newman,          Stanislaus,	10224,	2.10,	5.4,	June 10, 1908
+Fowler,          Fresno,	5570,	2.53,	6.6,	June 15, 1908
+Holtville,       Imperial,	5939,	1.15,	3.0,	July 1, 1908
+Point Arena,     Mendocino,	449,	1.35,	3.5,	July 11, 1908
+Ross,            Marin,	2415,	1.56,	4.0,	August 21, 1908
+South San Francisco, San Mateo,	63632,	9.14,	23.7,	September 19, 1908
+Albany,          Alameda,	18539,	1.79,	4.6,	September 22, 1908
+Dorris,          Siskiyou,	939,	0.70,	1.8,	December 23, 1908
+Montague,        Siskiyou,	1443,	1.78,	4.6,	January 28, 1909
+Huntington Beach, Orange,	189992,	26.75,	69.3,	February 17, 1909
+Roseville,       Placer,	118788,	36.22,	93.8,	April 10, 1909
+Dunsmuir,        Siskiyou,	1650,	1.70,	4.4,	August 7, 1909
+Tehachapi,       Kern,	14414,	9.87,	25.6,	August 13, 1909
+Orland,          Glenn,	7291,	2.97,	7.7,	November 11, 1909
+Hemet,           Riverside,	78657,	27.85,	72.1,	January 20, 1910
+Colfax,          Placer,	1963,	1.41,	3.7,	February 23, 1910
+Chino,           San Bernardino,	77983,	29.64,	76.8,	February 28, 1910
+Lindsay,         Tulare,	11768,	2.61,	6.8,	February 28, 1910
+Blue Lake,       Humboldt,	1253,	0.59,	1.5,	April 23, 1910
+Hillsborough,    San Mateo,	10825,	6.19,	16.0,	May 5, 1910
+Tracy,           San Joaquin,	82922,	22.00,	57.0,	July 22, 1910
+Taft,            Kern,	9327,	15.11,	39.1,	November 7, 1910
+King City,       Monterey,	12874,	3.84,	9.9,	February 9, 1911
+Exeter,          Tulare,	10334,	2.46,	6.4,	March 2, 1911
+Daly City,       San Mateo,	101123,	7.66,	19.8,	March 22, 1911
+Sanger,          Fresno,	24270,	5.52,	14.3,	May 9, 1911
+Perris,          Riverside,	68386,	31.39,	81.3,	May 26, 1911
+Burbank,         Los Angeles,	103340,	17.34,	44.9,	July 8, 1911
+Arroyo Grande,   San Luis Obispo,	17252,	5.84,	15.1,	July 10, 1911
+Maricopa,        Kern,	1154,	1.50,	3.9,	July 25, 1911
+San Fernando,    Los Angeles,	23645,	2.37,	6.1,	August 31, 1911
+Glendora,        Los Angeles,	50073,	19.39,	50.2,	November 13, 1911
+Rialto,          San Bernardino,	99171,	22.35,	57.9,	November 17, 1911
+Chula Vista,     San Diego,	243916,	49.63,	128.5,	November 28, 1911
+Angels Camp,     Calaveras,	3836,	3.63,	9.4,	January 16, 1912
+La Mesa,         San Diego,	57065,	9.08,	23.5,	February 16, 1912
+Clovis,          Fresno,	95631,	23.28,	60.3,	February 27, 1912
+El Cajon,        San Diego,	99478,	14.43,	37.4,	November 12, 1912
+El Monte,        Los Angeles,	113475,	9.56,	24.8,	November 18, 1912
+Beaumont,        Riverside,	36877,	30.91,	80.1,	November 18, 1912
+Manhattan Beach, Los Angeles,	35135,	3.94,	10.2,	December 12, 1912
+Sunnyvale,       Santa Clara,	140081,	21.99,	57.0,	December 24, 1912
+Banning,         Riverside,	29603,	23.10,	59.8,	February 6, 1913
+Sutter Creek,    Amador,	2501,	2.56,	6.6,	February 11, 1913
+Reedley,         Fresno,	24194,	5.08,	13.2,	February 18, 1913
+San Gabriel,     Los Angeles,	39718,	4.14,	10.7,	April 24, 1913
+San Marino,      Los Angeles,	13147,	3.77,	9.8,	April 25, 1913
+Avalon,          Los Angeles,	3728,	2.94,	7.6,	June 26, 1913
+Needles,         San Bernardino,	4844,	30.81,	79.8,	October 30, 1913
+Beverly Hills,   Los Angeles,	34109,	5.71,	14.8,	January 28, 1914
+Fillmore,        Ventura,	15002,	3.36,	8.7,	July 10, 1914
+Corcoran,        Kings,	24813,	7.47,	19.3,	August 11, 1914
+Firebaugh,       Fresno,	7549,	3.46,	9.0,	September 17, 1914
+Walnut Creek,    Contra Costa,	64173,	19.76,	51.2,	October 21, 1914
+San Bruno,       San Mateo,	41114,	5.48,	14.2,	December 23, 1914
+Delano,          Kern,	53041,	14.30,	37.0,	April 13, 1915
+Amador City,     Amador,	185,	0.31,	0.80,	June 2, 1915
+Seal Beach,      Orange,	24168,	11.29,	29.2,	October 27, 1915
+Gustine,         Merced,	5520,	1.55,	4.0,	November 11, 1915
+Monterey Park,   Los Angeles,	60269,	7.67,	19.9,	May 29, 1916
+Corte Madera,    Marin,	9253,	3.16,	8.2,	June 10, 1916
+Blythe,          Riverside,	20817,	26.19,	67.8,	July 21, 1916
+Carmel-by-the-Sea, Monterey,	3722,	1.08,	2.8,	October 31, 1916
+El Segundo,      Los Angeles,	16654,	5.46,	14.1,	January 18, 1917
+Plymouth,        Amador,	1005,	0.93,	2.4,	February 8, 1917
+Brea,            Orange,	39282,	12.08,	31.3,	February 23, 1917
+Davis,           Yolo,	65622,	9.89,	25.6,	March 28, 1917
+El Cerrito,      Contra Costa,	23549,	3.69,	9.6,	August 23, 1917
+Culver City,     Los Angeles,	38883,	5.11,	13.2,	September 7, 1917
+Ceres,           Stanislaus,	45417,	8.01,	20.7,	February 25, 1918
+Manteca,         San Joaquin,	67096,	17.73,	45.9,	June 5, 1918
+Calipatria,      Imperial,	7705,	3.72,	9.6,	February 28, 1919
+Patterson,       Stanislaus,	20413,	5.95,	15.4,	December 22, 1919
+San Joaquin,     Fresno,	4001,	1.15,	3.0,	February 14, 1920
+Williams,        Colusa,	5123,	5.44,	14.1,	May 17, 1920
+Montebello,      Los Angeles,	62500,	8.33,	21.6,	October 16, 1920
+Soledad,         Monterey,	25738,	4.41,	11.4,	March 9, 1921
+Torrance,        Los Angeles,	145538,	20.48,	53.0,	May 21, 1921
+Lynwood,         Los Angeles,	69772,	4.84,	12.5,	July 21, 1921
+Ojai,            Ventura,	7461,	4.39,	11.4,	August 5, 1921
+Parlier,         Fresno,	14494,	2.19,	5.7,	November 15, 1921
+Hawthorne,       Los Angeles,	84293,	6.08,	15.7,	July 12, 1922
+Atwater,         Merced,	28168,	6.09,	15.8,	August 16, 1922
+Riverbank,       Stanislaus,	22678,	4.09,	10.6,	August 23, 1922
+Livingston,      Merced,	13058,	3.72,	9.6,	September 11, 1922
+South Gate,      Los Angeles,	94396,	7.24,	18.8,	January 20, 1923
+Chowchilla,      Madera,	18720,	7.66,	19.8,	February 7, 1923
+West Covina,     Los Angeles,	106098,	16.04,	41.5,	February 17, 1923
+Isleton,         Sacramento,	804,	0.44,	1.1,	May 14, 1923
+Atherton,        San Mateo,	6914,	5.02,	13.0,	September 12, 1923
+Signal Hill,     Los Angeles,	11016,	2.19,	5.7,	April 22, 1924
+Colma,           San Mateo,	1792,	1.91,	4.9,	August 5, 1924
+Maywood,         Los Angeles,	27395,	1.18,	3.1,	September 2, 1924
+La Habra,        Orange,	60239,	7.37,	19.1,	January 20, 1925
+San Carlos,      San Mateo,	28406,	5.54,	14.3,	July 8, 1925
+Belmont,         San Mateo,	25835,	4.62,	12.0,	October 29, 1926
+Placentia,       Orange,	50533,	6.57,	17.0,	December 2, 1926
+Laguna Beach,    Orange,	22723,	8.85,	22.9,	June 29, 1927
+Tustin,          Orange,	75540,	11.08,	28.7,	September 21, 1927
+Bell,            Los Angeles,	35477,	2.50,	6.5,	November 7, 1927
+Menlo Park,      San Mateo,	32026,	9.79,	25.4,	November 23, 1927
+San Clemente,    Orange,	63522,	18.71,	48.5,	February 28, 1928
+Indio,           Riverside,	76036,	29.18,	75.6,	May 16, 1930
+Gardena,         Los Angeles,	58829,	5.83,	15.1,	September 11, 1930
+Fairfax,         Marin,	7441,	2.20,	5.7,	March 2, 1931
+Westmorland,     Imperial,	2225,	0.59,	1.5,	June 30, 1934
+Dos Palos,       Merced,	4950,	1.35,	3.5,	May 24, 1935
+Tulelake,        Siskiyou,	1010,	0.41,	1.1,	March 1, 1937
+Shafter,         Kern,	16988,	27.94,	72.4,	January 20, 1938
+Palm Springs,    Riverside,	44552,	94.12,	243.8,	April 20, 1938
+Palos Verdes Estates, Los Angeles,	13438,	4.77,	12.4,	December 20, 1939
+Woodlake,        Tulare,	7279,	2.25,	5.8,	September 23, 1941
+Mendota,         Fresno,	11014,	3.28,	8.5,	June 17, 1942
+Ripon,           San Joaquin,	14297,	5.30,	13.7,	November 27, 1945
+Wasco,           Kern,	25545,	9.43,	24.4,	December 22, 1945
+Folsom,          Sacramento,	72203,	21.95,	56.9,	April 20, 1946
+Pismo Beach,     San Luis Obispo,	7655,	3.60,	9.3,	April 25, 1946
+Portola,         Plumas,	2104,	5.41,	14.0,	May 16, 1946
+Kerman,          Fresno,	13544,	3.23,	8.4,	July 2, 1946
+Guadalupe,       Santa Barbara,	7080,	1.31,	3.4,	August 3, 1946
+Galt,            Sacramento,	23647,	5.93,	15.4,	August 16, 1946
+Coachella,       Riverside,	40704,	28.95,	75.0,	December 13, 1946
+Greenfield,      Monterey,	16330,	2.14,	5.5,	January 7, 1947
+Gonzales,        Monterey,	8187,	1.92,	5.0,	January 14, 1947
+Live Oak,        Sutter,	8392,	1.87,	4.8,	January 22, 1947
+Barstow,         San Bernardino,	22639,	41.38,	107.2,	September 30, 1947
+Millbrae,        San Mateo,	21532,	3.25,	8.4,	January 14, 1948
+Orange Cove,     Fresno,	9078,	1.91,	4.9,	January 20, 1948
+Brentwood,       Contra Costa,	51481,	14.79,	38.3,	January 21, 1948
+Port Hueneme,    Ventura,	21723,	4.45,	11.5,	March 24, 1948
+San Pablo,       Contra Costa,	29139,	2.63,	6.8,	April 27, 1948
+Capitola,        Santa Cruz,	9918,	1.59,	4.1,	January 11, 1949
+Huron,           Fresno,	6754,	1.59,	4.1,	May 3, 1951
+Campbell,        Santa Clara,	39349,	5.80,	15.0,	March 28, 1952
+Fontana,         San Bernardino,	196069,	42.43,	109.9,	June 25, 1952
+Carlsbad,        San Diego,	105328,	37.72,	97.7,	July 16, 1952
+Los Altos,       Santa Clara,	28976,	6.49,	16.8,	December 1, 1952
+Buena Park,      Orange,	80530,	10.52,	27.2,	January 27, 1953
+Ione,            Amador,	7918,	4.76,	12.3,	March 23, 1953
+Costa Mesa,      Orange,	109960,	15.65,	40.5,	June 29, 1953
+Del Rey Oaks,    Monterey,	1624,	0.48,	1.2,	September 3, 1953
+Milpitas,        Santa Clara,	66790,	13.59,	35.2,	January 26, 1954
+Lakewood,        Los Angeles,	80048,	9.41,	24.4,	April 16, 1954
+Seaside,         Monterey,	33025,	9.24,	23.9,	October 13, 1954
+Newark,          Alameda,	42573,	13.87,	35.9,	September 22, 1955
+Cupertino,       Santa Clara,	58302,	11.26,	29.2,	October 10, 1955
+La Palma,        Orange,	15568,	1.81,	4.7,	October 26, 1955
+Anderson,        Shasta,	9932,	6.37,	16.5,	January 16, 1956
+Fremont,         Alameda,	214089,	77.46,	200.6,	January 23, 1956
+Baldwin Park,    Los Angeles,	75390,	6.63,	17.2,	January 25, 1956
+Los Altos Hills, Santa Clara,	7922,	8.80,	22.8,	January 27, 1956
+Cerritos,        Los Angeles,	49041,	8.73,	22.6,	April 24, 1956
+Montclair,       San Bernardino,	36664,	5.52,	14.3,	April 25, 1956
+Stanton,         Orange,	38186,	3.15,	8.2,	June 4, 1956
+Garden Grove,    Orange,	170883,	17.94,	46.5,	June 18, 1956
+Imperial Beach,  San Diego,	26324,	4.16,	10.8,	July 18, 1956
+Cypress,         Orange,	47802,	6.58,	17.0,	July 24, 1956
+La Puente,       Los Angeles,	39816,	3.48,	9.0,	August 1, 1956
+Saratoga,        Santa Clara,	29926,	12.38,	32.1,	October 22, 1956
+Woodside,        San Mateo,	5287,	11.73,	30.4,	November 16, 1956
+Downey,          Los Angeles,	111772,	12.41,	32.1,	December 17, 1956
+Rolling Hills,   Los Angeles,	1860,	2.99,	7.7,	January 24, 1957
+Paramount,       Los Angeles,	54098,	4.73,	12.3,	January 30, 1957
+Escalon,         San Joaquin,	7132,	2.30,	6.0,	March 12, 1957
+Westminster,     Orange,	89701,	10.05,	26.0,	March 27, 1957
+Monte Sereno,    Santa Clara,	3341,	1.62,	4.2,	May 14, 1957
+Santa Fe Springs, Los Angeles,	16223,	8.87,	23.0,	May 15, 1957
+Fountain Valley, Orange,	55313,	9.02,	23.4,	June 13, 1957
+Industry,        Los Angeles,	219,	11.78,	30.5,	June 18, 1957
+McFarland,       Kern,	12707,	2.67,	6.9,	July 18, 1957
+Bradbury,        Los Angeles,	1048,	1.96,	5.1,	July 26, 1957
+Irwindale,       Los Angeles,	1422,	8.83,	22.9,	August 6, 1957
+Duarte,          Los Angeles,	21321,	6.69,	17.3,	August 22, 1957
+Norwalk,         Los Angeles,	105549,	9.71,	25.1,	August 26, 1957
+Bellflower,      Los Angeles,	76616,	6.12,	15.9,	September 3, 1957
+Rolling Hills Estates, Los Angeles,	8067,	3.57,	9.2,	September 18, 1957
+Pacifica,        San Mateo,	37234,	12.66,	32.8,	November 22, 1957
+Pico Rivera,     Los Angeles,	62942,	8.30,	21.5,	January 29, 1958
+South El Monte,  Los Angeles,	20116,	2.84,	7.4,	July 30, 1958
+Walnut,          Los Angeles,	29172,	8.99,	23.3,	January 19, 1959
+Union City,      Alameda,	69516,	19.47,	50.4,	January 26, 1959
+Artesia,         Los Angeles,	16522,	1.62,	4.2,	May 29, 1959
+Half Moon Bay,   San Mateo,	11324,	6.42,	16.6,	July 15, 1959
+Del Mar,         San Diego,	4161,	1.71,	4.4,	July 15, 1959
+Rosemead,        Los Angeles,	53764,	5.16,	13.4,	August 4, 1959
+Grover Beach,    San Luis Obispo,	13156,	2.31,	6.0,	December 21, 1959
+Lawndale,        Los Angeles,	32769,	1.97,	5.1,	December 28, 1959
+Novato,          Marin,	51904,	27.44,	71.1,	January 20, 1960
+Commerce,        Los Angeles,	12823,	6.54,	16.9,	January 28, 1960
+Los Alamitos,    Orange,	11449,	4.05,	10.5,	March 1, 1960
+La Mirada,       Los Angeles,	48527,	7.84,	20.3,	March 23, 1960
+Temple City,     Los Angeles,	35558,	4.01,	10.4,	May 25, 1960
+Sand City,       Monterey,	334,	0.56,	1.5,	May 31, 1960
+San Dimas,       Los Angeles,	33371,	15.04,	39.0,	August 4, 1960
+Farmersville,    Tulare,	10588,	2.26,	5.9,	October 5, 1960
+Cudahy,          Los Angeles,	23805,	1.18,	3.1,	November 10, 1960
+Arvin,           Kern,	19304,	4.82,	12.5,	December 21, 1960
+Hidden Hills,    Los Angeles,	1856,	1.69,	4.4,	January 19, 1961
+Weed,            Siskiyou,	2967,	4.79,	12.4,	January 25, 1961
+San Juan Capistrano, Orange,	34593,	14.12,	36.6,	April 19, 1961
+Bell Gardens,    Los Angeles,	42072,	2.46,	6.4,	August 1, 1961
+Pleasant Hill,   Contra Costa,	33152,	7.07,	18.3,	November 14, 1961
+Brisbane,        San Mateo,	4282,	3.10,	8.0,	November 27, 1961
+Villa Park,      Orange,	5812,	2.08,	5.4,	January 11, 1962
+Palmdale,        Los Angeles,	152750,	105.96,	274.4,	August 24, 1962
+Rohnert Park,    Sonoma,	40971,	7.00,	18.1,	August 28, 1962
+Victorville,     San Bernardino,	115903,	73.18,	189.5,	September 21, 1962
+Vista,           San Diego,	93834,	18.68,	48.4,	January 28, 1963
+San Marcos,      San Diego,	83781,	24.37,	63.1,	January 28, 1963
+Cotati,          Sonoma,	7265,	1.88,	4.9,	July 16, 1963
+Desert Hot Springs, Riverside,	25938,	23.62,	61.2,	September 25, 1963
+Ridgecrest,      Kern,	27616,	20.77,	53.8,	November 29, 1963
+Clayton,         Contra Costa,	10897,	3.84,	9.9,	March 18, 1964
+Camarillo,       Ventura,	65201,	19.53,	50.6,	March 28, 1964
+Hawaiian Gardens, Los Angeles,	14254,	0.95,	2.5,	April 9, 1964
+Tiburon,         Marin,	8962,	4.43,	11.5,	June 23, 1964
+Lomita,          Los Angeles,	20256,	1.91,	4.9,	June 30, 1964
+Portola Valley,  San Mateo,	4353,	9.09,	23.5,	July 14, 1964
+Morro Bay,       San Luis Obispo,	10234,	5.30,	13.7,	July 17, 1964
+Thousand Oaks,   Ventura,	126683,	55.03,	142.5,	October 7, 1964
+Norco,           Riverside,	27063,	13.96,	36.2,	December 28, 1964
+Yountville,      Napa,	2933,	1.53,	4.0,	February 4, 1965
+Rio Dell,        Humboldt,	3368,	2.28,	5.9,	February 23, 1965
+Carpinteria,     Santa Barbara,	13040,	2.59,	6.7,	September 28, 1965
+South Lake Tahoe, El Dorado,	21403,	10.16,	26.3,	November 30, 1965
+California City, Kern,	14120,	203.52,	527.1,	December 10, 1965
+Scotts Valley,   Santa Cruz,	11580,	4.59,	11.9,	August 2, 1966
+Indian Wells,    Riverside,	4958,	14.32,	37.1,	July 14, 1967
+Yorba Linda,     Orange,	64234,	19.48,	50.5,	November 2, 1967
+Carson,          Los Angeles,	91714,	18.72,	48.5,	February 20, 1968
+Lafayette,       Contra Costa,	23893,	15.22,	39.4,	July 29, 1968
+Simi Valley,     Ventura,	124237,	41.48,	107.4,	October 10, 1969
+Waterford,       Stanislaus,	8456,	2.33,	6.0,	November 7, 1969
+Loma Linda,      San Bernardino,	23261,	7.52,	19.5,	September 29, 1970
+Adelanto,        San Bernardino,	31765,	56.01,	145.1,	December 22, 1970
+Foster City,     San Mateo,	30567,	3.76,	9.7,	April 27, 1971
+Irvine,          Orange,	212375,	66.11,	171.2,	December 28, 1971
+Hughson,         Stanislaus,	6640,	1.82,	4.7,	December 9, 1972
+Rancho Mirage,   Riverside,	17218,	24.45,	63.3,	August 3, 1973
+Rancho Palos Verdes, Los Angeles,	41643,	13.46,	34.9,	September 7, 1973
+Palm Desert,     Riverside,	48445,	26.81,	69.4,	November 26, 1973
+Moraga,          Contra Costa,	16016,	9.43,	24.4,	November 13, 1974
+Marina,          Monterey,	19718,	8.88,	23.0,	November 13, 1975
+La Canada Flintridge, Los Angeles,	20246,	8.63,	22.4,	November 30, 1976
+Lemon Grove,     San Diego,	25320,	3.88,	10.0,	July 1, 1977
+Lancaster,       Los Angeles,	156633,	94.28,	244.2,	November 22, 1977
+Rancho Cucamonga, San Bernardino,	165269,	39.85,	103.2,	November 30, 1977
+Grand Terrace,   San Bernardino,	12040,	3.50,	9.1,	November 30, 1978
+La Habra Heights, Los Angeles,	5325,	6.16,	16.0,	December 4, 1978
+Atascadero,      San Luis Obispo,	28310,	25.64,	66.4,	July 2, 1979
+Avenal,          Kings,	15505,	19.42,	50.3,	September 11, 1979
+Paradise,        Butte,	26218,	18.31,	47.4,	November 27, 1979
+Clearlake,       Lake,	15250,	10.13,	26.2,	November 14, 1980
+Big Bear Lake,   San Bernardino,	5019,	6.35,	16.4,	November 28, 1980
+Santee,          San Diego,	53413,	16.24,	42.1,	December 1, 1980
+Poway,           San Diego,	47811,	39.08,	101.2,	December 1, 1980
+Cathedral City,  Riverside,	51200,	21.50,	55.7,	November 16, 1981
+Westlake Village, Los Angeles,	8270,	5.19,	13.4,	December 11, 1981
+Dublin,          Alameda,	46036,	14.91,	38.6,	February 1, 1982
+La Quinta,       Riverside,	37467,	35.12,	91.0,	May 1, 1982
+Danville,        Contra Costa,	42039,	18.03,	46.7,	July 1, 1982
+Agoura Hills,    Los Angeles,	20330,	7.79,	20.2,	December 8, 1982
+San Ramon,       Contra Costa,	72148,	18.06,	46.8,	July 1, 1983
+Moorpark,        Ventura,	34421,	12.58,	32.6,	July 1, 1983
+East Palo Alto,  San Mateo,	28155,	2.51,	6.5,	July 1, 1983
+Mammoth Lakes,   Mono,	8234,	24.87,	64.4,	August 20, 1984
+West Hollywood,  Los Angeles,	34399,	1.89,	4.9,	November 29, 1984
+Moreno Valley,   Riverside,	193365,	51.27,	132.8,	December 3, 1984
+Loomis,          Placer,	6430,	7.27,	18.8,	December 17, 1984
+Solvang,         Santa Barbara,	5245,	2.43,	6.3,	May 1, 1985
+Orinda,          Contra Costa,	17643,	12.68,	32.8,	July 1, 1985
+Solana Beach,    San Diego,	12867,	3.52,	9.1,	July 1, 1986
+Encinitas,       San Diego,	59518,	18.81,	48.7,	October 1, 1986
+West Sacramento, Yolo,	48744,	21.43,	55.5,	January 1, 1987
+Twentynine Palms, San Bernardino,	25048,	59.14,	153.2,	November 23, 1987
+Highland,        San Bernardino,	53104,	18.76,	48.6,	November 24, 1987
+Santa Clarita,   Los Angeles,	176320,	52.72,	136.5,	December 15, 1987
+Mission Viejo,   Orange,	93305,	17.74,	45.9,	March 31, 1988
+Hesperia,        San Bernardino,	90173,	73.10,	189.3,	July 1, 1988
+Apple Valley,    San Bernardino,	69135,	73.19,	189.6,	November 28, 1988
+Dana Point,      Orange,	33351,	6.50,	16.8,	January 1, 1989
+Diamond Bar,     Los Angeles,	55544,	14.88,	38.5,	April 18, 1989
+Lathrop,         San Joaquin,	18023,	21.93,	56.8,	July 1, 1989
+Yucaipa,         San Bernardino,	51367,	27.89,	72.2,	November 27, 1989
+Temecula,        Riverside,	100097,	30.15,	78.1,	December 1, 1989
+Laguna Niguel,   Orange,	62979,	14.83,	38.4,	December 1, 1989
+Canyon Lake,     Riverside,	10561,	3.93,	10.2,	December 1, 1990
+Calimesa,        Riverside,	7879,	14.85,	38.5,	December 1, 1990
+Malibu,          Los Angeles,	12645,	19.78,	51.2,	March 28, 1991
+Calabasas,       Los Angeles,	23058,	12.90,	33.4,	April 5, 1991
+Murrieta,        Riverside,	103466,	33.58,	87.0,	July 1, 1991
+Yucca Valley,    San Bernardino,	20700,	40.02,	103.7,	November 27, 1991
+Chino Hills,     San Bernardino,	74799,	44.68,	115.7,	December 1, 1991
+Lake Forest,     Orange,	77264,	17.82,	46.2,	December 20, 1991
+Laguna Hills,    Orange,	30344,	6.67,	17.3,	December 20, 1991
+American Canyon, Napa,	19454,	4.84,	12.5,	January 1, 1992
+Buellton,        Santa Barbara,	4828,	1.58,	4.1,	February 1, 1992
+Windsor,         Sonoma,	26801,	7.27,	18.8,	July 1, 1992
+Truckee,         Nevada,	16180,	32.32,	83.7,	March 23, 1993
+Shasta Lake,     Shasta,	10164,	10.92,	28.3,	July 2, 1993
+Citrus Heights,  Sacramento,	83301,	14.23,	36.9,	January 1, 1997
+Laguna Woods,    Orange,	16192,	3.12,	8.1,	March 24, 1999
+Oakley,          Contra Costa,	35432,	15.85,	41.1,	July 1, 1999
+Rancho Santa Margarita, Orange,	47853,	12.96,	33.6,	January 1, 2000
+Elk Grove,       Sacramento,	153015,	42.19,	109.3,	July 1, 2000
+Aliso Viejo,     Orange,	47823,	7.47,	19.3,	July 1, 2001
+Goleta,          Santa Barbara,	29888,	7.90,	20.5,	February 1, 2002
+Rancho Cordova,  Sacramento,	64776,	33.51,	86.8,	July 1, 2003
+Wildomar,        Riverside,	32176,	23.69,	61.4,	July 1, 2008
+Menifee,         Riverside,	77519,	46.47,	120.4,	October 1, 2008
+Eastvale,        Riverside,	53670,	13.1,	34,	October 1, 2010
+Jurupa Valley,   Riverside,	95004,	43.7,	113,	July 1, 2011
