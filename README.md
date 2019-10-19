@@ -1,4 +1,4 @@
 # apcs
-labs done in deruiter's apcs course. 
+labs done in deruiter's apcs course @ monta vista 
 
-calendar found [url=https://drootr.com/apcs/apcs.php]here[/url]
+deruiter's website : https://drootr.com/apcs/apcs.php
