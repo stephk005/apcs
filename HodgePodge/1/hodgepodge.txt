@@ -1,0 +1,276 @@
+
+/**
+ * SumOfMultiples2.java
+ * Finds the sum of all the multiples of
+ * 3 or 5, below 3000.
+ * @author Scott DeRuiter
+ * @version 1.0
+ * @since 8/26/2019
+ */
+
+ public class SumOfMultiples2
+ {
+	/** The sum to be found.   */
+	private int sum;
+
+	/**  Creates a SumOfMultiples2 object, assigning
+	 *   a sum of zero to start with.
+	 */
+	public SumOfMultiples2 ( )
+	{
+		sum = 0;
+	}
+
+	/**  Runs an instance of SumOfMultiples2  */
+	public static void main(String [] args)
+	{
+		SumOfMultiples2 run = new SumOfMultiples2();
+		run.findSum();
+		run.printSum();
+	}
+
+	/**  Finds the sum of all multiples of 3 or 5 less than 3000.  */
+	public void findSum ( )
+	{
+		for(int i = 3; i < 3000; i++)
+		{
+			if(i % 3 == 0 || i % 5 == 0)
+			{
+				sum += i;
+			}
+		}
+	}
+
+	/**  Prints the sum.  */
+	public void printSum ( )
+	{
+		System.out.println("\n\n\nSum = " + sum + "\n\n\n" );
+	}
+ }
+
+
+ /**
+ * Least2.java
+ * Find the smallest positive number that is evenly
+ * divisible by all of the numbers from 1 to 25.
+ * @author Scott DeRuiter
+ * @version 1.0
+ * @since 8/26/2019
+ */
+
+ public class Least2
+ {
+	/** The number that is evenly divisible by all numbers from 1 to 25.   */
+	private long number;
+
+	/**  Creates a Least2 object, assigning
+	 *   values to fields, etc.
+	 */
+	public Least2 ( )
+	{
+		number = 1;
+	}
+
+	/**  Runs an instance of Least2  */
+	public static void main(String [] args)
+	{
+		Least2 run = new Least2();
+		run.findNumber();
+		run.printNumber();
+	}
+
+	/**  Finds the number that is evenly divisible by all numbers from 1 to 25.  */
+	public void findNumber ( )
+	{
+		int max = 25;
+		for(int i = 2; i <= max; i++)
+		{
+			if(isPrime(i))
+			{
+				int primeProduct = 1;
+				while(primeProduct * i <= max)
+				{
+					primeProduct *= i;
+				}
+//				System.out.println(primeProduct);
+				number *= primeProduct;
+			}
+		}
+	}
+
+	/**  Determine is value is prime (true) or not prime (false).  */
+	public boolean isPrime(int value)
+	{
+		for(int i = 2; i <= Math.sqrt(value); i++)
+		{
+			if(value % i == 0)
+			{
+				return false;
+			}
+		}
+		return true;
+	}
+
+	/**  Prints the number that is evenly divisible by all numbers from 1 to 25.  */
+	public void printNumber ( )
+	{
+		System.out.println("\n\n\nSmallest = " + number + "\n\n\n");
+	}
+ }
+
+
+ /**
+ * Ninety2.java
+ * Finds the difference between the sum of the squares
+ * and the square of the sum, for the numbers from 1 to 90.
+ * @author Scott DeRuiter
+ * @version 1.0
+ * @since 8/26/2019
+ */
+
+ public class Ninety2
+ {
+	/** Square of sum.   */
+	private long squareOfSum;
+
+	/** Sum of squares.   */
+	private long sumOfSquares;
+
+	/**  Creates a Ninety2 object, assigning
+	 *   initial values of zero to the fields.
+	 */
+	public Ninety2 ( )
+	{
+		squareOfSum = 0;
+		sumOfSquares = 0;
+	}
+
+	/**  Runs an instance of Ninety2  */
+	public static void main(String [] args)
+	{
+		Ninety2 run = new Ninety2();
+		run.findValues();
+		run.printDifference();
+	}
+
+	/**  Calculates the squareOfSum and sumOfSquares.  */
+	public void findValues ( )
+	{
+		for(int i = 1; i <= 90; i++)
+		{
+			squareOfSum += i;
+			sumOfSquares += (i * i);
+		}
+		squareOfSum *= squareOfSum;
+	}
+
+	/**  Prints the difference between the sumOfSquares and squareOfSum.  */
+	public void printDifference ( )
+	{
+		System.out.println("\n\n\n" + squareOfSum + " - " + sumOfSquares +
+			" = " + (squareOfSum - sumOfSquares) + "\n\n\n");
+	}
+ }
+
+
+ /**
+ * Million2.java
+ * Finds the sum of all primes
+ * less than one Million2.
+ * @author Scott DeRuiter
+ * @version 1.0
+ * @since 8/26/2019
+ */
+
+ public class Million2
+ {
+	/**  Creates a Million2 object.
+	 */
+	public Million2 ( )
+	{ }
+
+	/**  Runs an instance of Million2  */
+	public static void main(String [] args)
+	{
+		Million2 run = new Million2();
+		run.findPrimeSum();
+	}
+
+	/**  Finds the sum of all primes less than one Million2.  */
+	public void findPrimeSum ( )
+	{
+		long sum = 0;
+		for(int num = 2; num < 1000000; num++)
+		{
+			if(isPrime(num))
+			{
+//				System.out.println(num);
+				sum += num;
+			}
+		}
+		System.out.println("\n\n\nSum = " + sum + "\n\n\n");
+	}
+
+	/**  Determine is value is prime (true) or not prime (false).  */
+	public boolean isPrime(int value)
+	{
+		for(int i = 2; i <= Math.sqrt(value); i++)
+		{
+			if(value % i == 0)
+			{
+				return false;
+			}
+		}
+		return true;
+	}
+ }
+
+
+ /**
+ * ThousandSum2.java
+ * Find the Pythagorean Triple
+ * such that a + b + c = 1000.
+ * @author Scott DeRuiter
+ * @version 1.0
+ * @since 8/26/2019
+ */
+
+ public class ThousandSum2
+ {
+	/**  Creates a ThousandSum2 object.
+	 */
+	public ThousandSum2 ( )
+	{ }
+
+	/**  Runs an instance of ThousandSum2  */
+	public static void main(String [] args)
+	{
+		ThousandSum2 run = new ThousandSum2();
+		run.findTriple();
+	}
+
+	/**  Finds the Pythagorean Triple such that a + b + c = 1000  */
+	public void findTriple ( )
+	{
+		for(int a = 1; a < 500; a++)
+		{
+//			System.out.println(a);
+			for(int b = a + 1; b < 1000; b++)
+			{
+				int c = 1000 - a - b;
+				if(a < c && b < c && a + b > c)
+				{
+					if(a * a + b * b == c * c)
+					{
+						System.out.println("\n\n\n" + a + "  " + b + "   " + c);
+						System.out.println("Product = " + (a * b * c) + "\n\n\n");
+						return;
+					}
+				}
+			}
+		}
+
+	}
+ }
+
+Back to APCS Main Page
