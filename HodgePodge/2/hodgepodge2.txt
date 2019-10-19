@@ -1,0 +1,388 @@
+
+/**
+ * Truncatable2.java
+ * Finds the sum of the 11 Truncatable2 (from both left and right)
+ * primes.
+ * @author Scott DeRuiter
+ * @version 1.0
+ * @since 10/8/2019
+ */
+
+ public class Truncatable2
+ {
+	/**  Creates a Truncatable2 object.
+	 */
+	public Truncatable2 ( )
+	{
+	}
+
+	/**  Runs an instance of Truncatable2  */
+	public static void main(String [] args)
+	{
+		Truncatable2 run = new Truncatable2();
+		run.findValues();
+	}
+
+	/**
+	 *  Finds prime number candidates, then checks to see if that
+	 *  candidate is a Truncatable2 prime, from both the left and
+	 *  the right.  If so, it's added to the sum, and the sum is
+	 *  printed once all 11 of these Truncatable2 primes have been
+	 *  found.
+	 */
+	public void findValues ( )
+	{
+		System.out.println("\n\n\n");
+		int counter = 0;
+		int value = 10;
+		int sum = 0;
+		while(counter < 11)
+		{
+			value++;
+			if(isPrime(value) && isTruncatableRight(value) && isTruncatableLeft(value))
+			{
+				counter++;
+				System.out.println(value);
+				sum += value;
+			}
+		}
+		System.out.println("\n\n\n" + sum + "\n\n\n");
+	}
+
+
+	/**  Determines if value is prime (true) or not prime (false).  */
+	public boolean isPrime(int value)
+	{
+		if(value == 1)
+		{
+			return false;
+		}
+		for(int i = 2; i <= Math.sqrt(value); i++)
+		{
+			if(value % i == 0)
+			{
+				return false;
+			}
+		}
+		return true;
+	}
+
+	/**  Determines if value is a Truncatable prime from the right.  */
+	public boolean isTruncatableRight(int value)
+	{
+		while(value > 0)
+		{
+			value /= 10;
+			if(!isPrime(value))
+			{
+				return false;
+			}
+		}
+		return true;
+	}
+
+	/**  Determines if value is a Truncatable prime from the left.  */
+	public boolean isTruncatableLeft(int value)
+	{
+		int original = value;
+		int divider = 10;
+		value = original % divider;
+		while(value != original)
+		{
+			if(!isPrime(value))
+			{
+				return false;
+			}
+			divider *= 10;
+			value = original % divider;
+		}
+		return true;
+	}
+ }
+
+ /**
+ * MostTriples2.java
+ * Finds the number p, less than or equal to 1000, that has
+ * the most pythagorean triples that sum to that number.
+ * @author Scott DeRuiter
+ * @version 1.0
+ * @since 10/8/2019
+ */
+
+ public class MostTriples2
+ {
+	/**  Creates a MostTriples2 object.
+	 */
+	public MostTriples2 ( )
+	{ }
+
+	/**  Runs an instance of MostTriples2  */
+	public static void main(String [] args)
+	{
+		MostTriples2 run = new MostTriples2();
+		run.findMost();
+	}
+
+	/**
+	 *  Runs 3 nested loops, looking for pythagorean triples.
+	 *  If it finds one, adds it to the number of triples for the
+	 *  given sum (max in the first loop).  Prints out the triples
+	 *  and keeps track of which sum has the most triples.  Prints
+	 *  out this info at the end of the nested loops.
+	 */
+	public void findMost ( )
+	{
+		System.out.println("\n\n\n");
+		int most = 0, number = 0;
+		for(int max = 1; max <= 1000; max++)
+		{
+			boolean foundOne = false;
+			int count = 0;
+			for(int a = 1; a < 500; a++)
+			{
+				for(int b = a + 1; b < max; b++)
+				{
+					int c = max - a - b;
+					if(a < c && b < c && a + b > c)
+					{
+						if(a * a + b * b == c * c)
+						{
+							if(count % 4 == 0 && count != 0)
+							{
+								System.out.println();
+							}
+							System.out.print("(" + a + ", " + b + ", " + c + ")     ");
+							foundOne = true;
+							count++;
+						}
+					}
+				}
+			}
+			if(foundOne)
+			{
+				System.out.println(max + " - " + count);
+				if(count > most)
+				{
+					most = count;
+					number = max;
+				}
+			}
+		}
+		System.out.println("\n\n" + most + " at " + number + "\n\n\n");
+	}
+ }
+
+ /**
+ * TwoPounds2.java
+ * Finds the number of combinations of English coins that can
+ * be used to make a two pound total.
+ * @author Scott DeRuiter
+ * @version 1.0
+ * @since 10/8/2019
+ */
+public class TwoPounds2
+{
+	/**  Runs an instance of TwoPounds2.  */
+	public static void main(String [] args)
+	{
+		TwoPounds2 run = new TwoPounds2();
+		run.findCombos();
+	}
+
+	/**
+	 *  Runs nested loops for the different types of English coins, looking for combinations
+	 *  that add up to two pounds.  When a combination is found, the total is incremented
+	 *  by 1.  The total number of combinations is displayed after the loops.
+	 */
+	public void findCombos ( )
+	{
+		System.out.println("\n\n\n");
+		int total = 1;    //  1 for the two pound note, alone.
+//		System.out.println("   1 L2");
+		for(int onepound = 0; onepound <= 200/100; onepound++)
+		{
+			for(int fiftypence = 0; fiftypence <= 200/50; fiftypence++)
+			{
+				for(int twentypence = 0; twentypence <= 200/20; twentypence++)
+				{
+					for(int tenpence = 0; tenpence <= 200/10; tenpence++)
+					{
+						for(int fivepence = 0; fivepence <= 200/5; fivepence++)
+						{
+							for(int twopence = 0; twopence <= 200/2; twopence++)
+							{
+								for(int onepence = 0; onepence <= 200/1 &&
+											onepound * 100 + fiftypence * 50 + twentypence * 20 + tenpence * 10 + fivepence * 5 + twopence * 2 + onepence <= 200; onepence++)
+								{
+									if(onepound * 100 + fiftypence * 50 + twentypence * 20 + tenpence * 10 + fivepence * 5 + twopence * 2 + onepence == 200)
+									{
+//										System.out.printf("%4d L1, %4d 50p, %4d 20p, %4d 10p, %4d 5p, %4d 2p, %4d 1p%n",
+//												onepound, fiftypence, twentypence, tenpence, fivepence, twopence, onepence);
+										total++;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		System.out.println(total + "\n\n\n");
+	}
+}
+
+/**
+ * AmicableSum2.java
+ * Finds the sum of all amicable pairs
+ * under 10000.
+ * @author Scott DeRuiter
+ * @version 1.0
+ * @since 10/8/2019
+ */
+public class AmicableSum2
+{
+	/**  Runs an instance of AmicableSum2.  */
+	public static void main(String [] args)
+	{
+		AmicableSum2 run = new AmicableSum2();
+		run.findAmicableSum2Pairs();
+	}
+
+	/**
+	 *  Finds the amicable pairs, adding to the total.
+	 *  Prints out the total after the loop.
+	 */
+	public void findAmicableSum2Pairs ( )
+	{
+		System.out.println("\n\n\n");
+		int total = 0;
+		for(int i = 2; i < 10000; i++)
+		{
+//			System.out.print(i);
+//			printFactors(i);
+			int sum = findSumOfFactors(i);
+			if(findSumOfFactors(sum) == i && i != sum)
+			{
+				System.out.println(i + ", " + sum);
+				total += i;
+			}
+		}
+		System.out.println("\n\n" + total + "\n\n\n");
+	}
+
+	/**  Prints the factors (for debugging).   */
+	public void printFactors(int value)
+	{
+		System.out.print(" -> 1");
+		for(int i = 2; i < value; i++)
+		{
+			if(value % i == 0)
+			{
+				System.out.print(", " + i);
+			}
+		}
+		System.out.println();
+	}
+
+	/**  Finds the sum of the proper factors.    */
+	public int findSumOfFactors(int value)
+	{
+		int sum = 1;
+		for(int i = 2; i <= Math.sqrt(value); i++)
+		{
+			if(value % i == 0)
+			{
+				sum += i;
+				if(i != value/i)
+				{
+					sum += (value / i);
+				}
+			}
+		}
+		return sum;
+	}
+}
+
+/**
+ * InCircles2.java
+ * Finds the number of circular primes
+ * less than 100000.
+ * @author Scott DeRuiter
+ * @version 1.0
+ * @since 10/8/2019
+ */
+public class InCircles2
+{
+	/**  Runs an instance of InCircles2.  */
+	public static void main(String [] args)
+	{
+		InCircles2 run = new InCircles2();
+		run.findCircularPrimes();
+	}
+
+	/**
+	 *  Runs a loop to check for primes, and from these candidates
+	 *  checks for circular primes.  Adds to the total if a circular
+	 *  prime is found, and prints this total once the loop is complete.
+	 */
+	public void findCircularPrimes ( )
+	{
+		System.out.println("\n\n\n");
+		int count = 0;
+		for(int i = 2; i < 100000; i++)
+		{
+			if(isPrime(i) && isCircularPrime(i))
+			{
+				if(count % 10 == 0)
+				{
+					System.out.println();
+				}
+				System.out.printf("%8d", i);
+				count++;
+			}
+		}
+		System.out.println("\n\n" + count + "\n\n\n");
+	}
+
+	/**  Checks for a prime number.    */
+	public boolean isPrime(int value)
+	{
+		for(int i = 2; i <= Math.sqrt(value); i++)
+		{
+			if(value % i == 0)
+			{
+				return false;
+			}
+		}
+		return true;
+	}
+
+	/**  Checks for a circular prime.     */
+	public boolean isCircularPrime(int value)
+	{
+		int numDigits = countDigits(value);
+		for(int i = 0; i < numDigits; i++)
+		{
+			if(!isPrime(value))
+			{
+				return false;
+			}
+			value = (value / 10) + (value % 10) * (int)(Math.pow(10, numDigits - 1));
+		}
+		return true;
+	}
+
+	/**  Counts the digits in an integer.    */
+	public int countDigits(int value)
+	{
+		int numDigits = 0;
+		while(value > 0)
+		{
+			value /= 10;
+			numDigits++;
+		}
+		return numDigits;
+	}
+}
+
+Back to APCS Main Page
